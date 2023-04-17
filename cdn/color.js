@@ -14,4 +14,5 @@
                 var bodybgarrayno = Math.floor(Math.random() * colors.length);
                 var selectedcolor = colors[bodybgarrayno];
                 $(".color").css("background",selectedcolor);
+                $("a").css("color",selectedcolor);
         }
